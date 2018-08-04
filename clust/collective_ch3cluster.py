@@ -237,7 +237,7 @@ def kcluster(rows,distance=pearson,k=4):
                     for l in range(len(rows[rowid])):
                         avgs[l]+=rows[rowid][l]
                 for j in range(len(avgs)):
-                    avgs[j]/len(bestmatches[m])
+                    avgs[j]/=len(bestmatches[m])
                 cluster.append(avgs)
     return bestmatches
 
