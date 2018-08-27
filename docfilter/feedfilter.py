@@ -50,7 +50,7 @@ def entryfeatures(entry):
     if float(uc)/len(summarywords)>0.3: f['UPPERCASE']=1
     return f        
 
-if __init__=='__mian__':
+if __name__=='__mian__':
     cl=docclass.fisherclassifier(entryfeatures)
     cl.setdb('test') 
     read('python_search.xml',cl)
