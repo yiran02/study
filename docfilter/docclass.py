@@ -218,7 +218,7 @@ class fisherclassifier(classifier):
         return best
     
     
-if __init__=='__main__':
+if __name__=='__main__':
 
     cl = fisherclassifier(getwords)
     cl.setdb('test')
