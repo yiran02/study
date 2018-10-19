@@ -1,2 +1,2 @@
 # study
-collective programming intelligence 
+from collective programming intelligence 
